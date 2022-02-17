@@ -68,7 +68,7 @@ Breaking changes were introduced in #285
 See: https://github.com/Nerzal/gocloak/pull/285/files
 
 New Features:
-- #301 adding APIs handler to fetch policy resources 
+- #301 adding APIs handler to fetch policy resources
 - #299 GroupList Retrieval by RoleName
 - #296 Fixed incorrect json representation of ResourceType in PermissionRepresentation
 - #294 Remove duplicate quotes in README.md
@@ -130,13 +130,13 @@ There are a lot of backward incompatible changes:
 ### Installation
 
 ```shell
-go get github.com/Nerzal/gocloak/v10
+go get github.com/tjarkmeyer/gocloak
 ```
 
 ### Importing
 
 ```go
- import "github.com/Nerzal/gocloak/v10"
+ import "github.com/tjarkmeyer/gocloak"
 ```
 
 ### Create New User
